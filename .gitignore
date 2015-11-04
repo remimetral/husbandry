@@ -2,4 +2,3 @@ backup/
 node_modules/
 startbootstrap/
 vendor/
-.env
