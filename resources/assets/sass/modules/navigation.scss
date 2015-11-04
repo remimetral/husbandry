@@ -1,0 +1,76 @@
+	
+//
+//  =========================================================
+//  Navigation
+//  =========================================================
+//
+
+.navbar {
+	width: 100%;
+	height: auto;
+	background: #000;
+	position: absolute;
+	border-radius: 0;
+	border: none;
+	z-index: 999;
+
+  	.navbar-header {
+
+		.center {
+			width: 120px;
+			height: 120px;
+			position: absolute;
+			margin: 0 0 0 -60px;
+			left: 50%;
+			top: 8px;
+		}
+
+		.navbar-toggle {
+			border: none;
+			transition: all .3s;
+			background-color: #000;
+		
+			&:hover {
+				-ms-transform: rotate(-180deg);
+				-webkit-transform: rotate(-180deg);
+				transform: rotate(-180deg);
+			}
+
+			.icon-bar{
+				background-color: #fff; 
+			}
+		}
+
+		.navbar-brand {
+			//position:absolute;
+			//z-index: 990;
+			display: block;
+			margin: 0;
+		}
+	}
+
+	.navbar-collapse {
+		width: 300px;
+		color: #fff;
+		//background: #000;
+		position: absolute;
+		//z-index: 980;
+		border: none;
+		margin-left: -142px;
+		left: 50%;
+		
+
+		.btn_nav {
+			color: #fff;
+
+			&:hover {
+				color: #ccc;
+			}
+
+			&.active {
+				color: #333;
+				pointer-events: none;
+			}
+		}
+	}
+}

@@ -1,0 +1,1 @@
+@extends( Request::ajax() === true  ?  'app.layouts.ajax' : 'app.layouts.master' )

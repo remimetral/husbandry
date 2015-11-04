@@ -1,0 +1,21 @@
+{
+	"name": "Framework",
+	"version": "1.0.0",
+	"dependencies": {
+		"animate.css": "latest",
+		"bootstrap-sass-official": "~3.3.3",
+		"fontawesome": "~4.3.0",
+		"foundation": "latest",
+		"gsap": "1.15.0",
+		"history": "latest",
+		"jquery": "~2.1.3",
+		"jquery-validation": "latest",
+		"metisMenu": "latest",
+		"pace": "latest",
+		"slimScroll": "latest"
+	},
+	"resolutions": {
+		"jquery": ">= 2.1.0",
+		"angular": "~1.3"
+	}
+}

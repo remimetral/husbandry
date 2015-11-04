@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?> 
+<videos>
+<video titre="23 mars 2009" url="http://nextedia.cache.coltfrance.com/fdjeux/oxo/videos/OXO_23-03.swf" type="sketch" miniature="http://nextedia.cache.coltfrance.com/fdjeux/oxo/miniatures/OXO_23-03.jpg" position="1" />
+<video titre="22 mars 2009" url="http://nextedia.cache.coltfrance.com/fdjeux/oxo/videos/OXO_22-03.swf" type="sketch" miniature="http://nextedia.cache.coltfrance.com/fdjeux/oxo/miniatures/OXO_22-03.jpg" position="1" />
+<video titre="21 mars 2009" url="http://nextedia.cache.coltfrance.com/fdjeux/oxo/videos/OXO_21-03.swf" type="sketch" miniature="http://nextedia.cache.coltfrance.com/fdjeux/oxo/miniatures/OXO_21-03.jpg" position="1" />
+<video titre="20 mars 2009" url="http://nextedia.cache.coltfrance.com/fdjeux/oxo/videos/OXO_20-03.swf" type="sketch" miniature="http://nextedia.cache.coltfrance.com/fdjeux/oxo/miniatures/OXO_20-03.jpg" position="1" />
+<video titre="19 mars 2009" url="http://nextedia.cache.coltfrance.com/fdjeux/oxo/videos/OXO_19-03.swf" type="sketch" miniature="http://nextedia.cache.coltfrance.com/fdjeux/oxo/miniatures/OXO_19-03.jpg" position="1" />
+	<video titre="18 mars 2009" url="http://nextedia.cache.coltfrance.com/fdjeux/oxo/videos/OXO_18-03.swf" type="sketch" miniature="http://nextedia.cache.coltfrance.com/fdjeux/oxo/miniatures/OXO_18-03.jpg" position="1" />
+	<video titre="17 mars 2009" url="http://nextedia.cache.coltfrance.com/fdjeux/oxo/videos/OXO_17-03.swf" type="sketch" miniature="http://nextedia.cache.coltfrance.com/fdjeux/oxo/miniatures/OXO_17-03.jpg" position="1" />
+	<video titre="16 mars 2009" url="http://nextedia.cache.coltfrance.com/fdjeux/oxo/videos/OXO_16-03.swf" type="sketch" miniature="http://nextedia.cache.coltfrance.com/fdjeux/oxo/miniatures/OXO_16-03.jpg" position="1" />
+	<video titre="Spot TV" url="http://nextedia.cache.coltfrance.com/fdjeux/oxo/videos/OXO-SpotTv.swf" type="sketch" miniature="http://nextedia.cache.coltfrance.com/fdjeux/oxo/miniatures/SpotTv.jpg" position="2" />
+	<video titre="Spot TV" url="http://nextedia.cache.coltfrance.com/fdjeux/oxo/videos/OXO-SpotTvp.swf" type="spot" miniature="http://nextedia.cache.coltfrance.com/fdjeux/oxo/miniatures/SpotTv.jpg" position="3" />
+	<video type="sketch_tirage" url="http://nextedia.cache.coltfrance.com/fdjeux/oxo/videos/OXO_23-03.swf"/>
+</videos>

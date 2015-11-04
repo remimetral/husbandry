@@ -1,0 +1,10 @@
+{
+	"devDependencies": {
+		"bower": "^1.3.12",
+		"gulp": "^3.8.8",
+		"gulp-livereload": "^3.7.0",
+		"gulp-notify": "^2.2.0",
+		"gulp-sass": "^1.3.2",
+		"laravel-elixir": "^0.10.6"
+	}
+}

@@ -1,0 +1,226 @@
+
+//
+//  =========================================================
+//  Page Works
+//  =========================================================
+//
+
+.container_page.works {
+	//-ms-transform: scale(.8, .8); /* IE 9 */
+    //-webkit-transform: scale(.8, .8); /* Chrome, Safari, Opera */
+    //transform: scale(.8, .8);
+    //opacity: .8;
+
+  	.bg_page {
+		.trame {
+			width: 100%;
+			height: 100%;
+			background-image: url(../img/trame.png);
+			background-repeat: repeat;
+			position: fixed;
+			z-index: 10;
+		}
+
+		.carousel {
+			.carousel-inner {
+				.item {
+				position: fixed; 
+				width: 100%; height: 100%;
+				@include background_cover();
+				background-image: url(../img/bg/slide_01.jpg);
+				-webkit-filter: blur(3px); 
+				filter: blur(3px);
+				}
+			}
+		}
+	}
+
+	.cbp-ig-grid {
+		list-style: none;
+		margin: 0;
+
+		li {
+			width: 33.33%;
+			height: 540px;
+			text-align: center;
+			border: none;
+			float: left;
+		}
+
+		li:nth-child(2n) {
+			.face.front {
+				background-color: rgba(#fff, .1);
+			}
+		}
+
+		li:nth-child(2n-1) {
+			.face.front {
+				background-color: rgba(#fff, .2);
+			}
+		}
+
+		.wrapper {
+			width: 100%;
+			height: 540px;
+			position: relative;
+			overflow: hidden;
+			
+			.face {
+				width: 100%;
+				height: 540px;
+				position: absolute;
+			}
+
+			.face.front {
+				cursor: pointer;
+				text-align: center;
+
+				&:hover {
+
+					.title {
+						-webkit-transform: translateY(-10px);
+						-moz-transform: translateY(-10px);
+						-ms-transform: translateY(-10px);
+						transform: translateY(-10px);
+					}
+
+					.category {
+						opacity: 1;
+						-webkit-transform: translateY(10px);
+						-moz-transform: translateY(10px);
+						-ms-transform: translateY(10px);
+						transform: translateY(10px);
+					}
+				}
+
+				.icon {
+					padding: 145px 0 0 0;
+				}
+
+				.title {
+					color: #fff;
+					font-size: 1.6em;
+					position: relative;
+					padding: 20px 0 0 0;
+
+					-webkit-transition: -webkit-transform 0.2s;
+					-moz-transition: -moz-transform 0.2s;
+					transition: transform 0.2s;
+				}
+
+				.category {
+					text-transform: uppercase;
+					display: inline-block;
+					letter-spacing: 1px;
+					font-size: 1em;
+					color: #fff;
+					opacity: 0;
+					
+					-webkit-transition: -webkit-transform 0.4s, opacity 0.2s;
+					-moz-transition: -moz-transform 0.4s, opacity 0.2s;
+					-webkit-transition: transform 0.4s, opacity 0.2s;
+				}
+			}
+
+			.face.back {
+				background-color: rgba(#000, 1);
+
+				.bg {
+					width: 100%;
+					height: 100%;
+					position: fixed;
+					background-repeat: no-repeat;
+					background-position: center fixed;
+					-webkit-background-size: cover;
+					background-size: cover;
+					opacity: .4;
+					padding: 0;
+					margin: 0;
+				}
+
+				.bora { background-image: url(../img/wr/bg/bora.jpg); }
+				.cult { background-image: url(../img/wr/bg/cult.jpg); }
+				.dia { background-image: url(../img/wr/bg/dia.jpg); }
+				.moka { background-image: url(../img/wr/bg/moka.jpg); }
+				.oxo { background-image: url(../img/wr/bg/oxo.jpg); }
+				.swi { background-image: url(../img/wr/bg/swi.jpg); }
+
+				.close {
+					width: 33px;
+					height: 33px;
+					background-image: url(../img/wr/close.png);
+					background-repeat: no-repeat;
+					position: absolute;
+					cursor: pointer;
+					right: 20px;
+					top: 20px;
+					transition: all .2s;
+					transform-origin: center center;
+					
+					&:hover {
+						transform: rotate(-180deg);
+					}
+				}
+
+				.text {
+					text-align: justify;
+					position: absolute;
+					left: 40px;
+					top: 80px;
+				}
+			}
+		}
+	}
+
+	@media screen and (max-width: 75em) {
+		.cbp-ig-grid li {
+			width: 50%;
+		}
+
+		/* reset the grid lines */
+		.cbp-ig-grid li:nth-child(-n+3){
+			border-top: none;
+		}
+
+		.cbp-ig-grid li:nth-child(3n-1),
+		.cbp-ig-grid li:nth-child(3n-2) {
+			box-shadow: none;
+		}
+
+		.cbp-ig-grid li:nth-child(-n+2){
+			border-top: none;
+		}
+
+		.cbp-ig-grid li:nth-child(2n-1) {
+			box-shadow: 1px 0 0 #ddd;
+		}
+	}
+
+	@media screen and (max-width: 47.95em) { 
+		.cbp-ig-grid li {
+			width: 100%;
+		}
+
+		.cbp-ig-grid li:nth-child(-n+2){
+			border-top: none;
+		}
+
+		.cbp-ig-grid li:nth-child(2n-1) {
+			box-shadow: none
+		}
+
+		.cbp-ig-grid li:first-child {
+			border-top: none;
+		}
+	}
+
+	@media screen and (max-width: 25em) { 
+		.cbp-ig-grid {
+			font-size: 80%;
+		}
+
+		.cbp-ig-grid .cbp-ig-category {
+			margin-top: 20px;
+		}
+	}
+}
