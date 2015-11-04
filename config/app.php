@@ -151,7 +151,7 @@ return [
 		 * Package Service Providers...
 		 */
 		'Jenssegers\Agent\AgentServiceProvider',
-		'Laracasts\Utilities\JavaScript\JavascriptServiceProvider',
+		//'Laracasts\Utilities\JavaScript\JavaScriptServiceProvider',
 
 	],
 
