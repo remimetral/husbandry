@@ -19,8 +19,6 @@
 								<div class="active item"></div>
 								<div class="item"></div>
 								<div class="item"></div>
-								<div class="item"></div>
-								<div class="item"></div>
 							</div>
 						</div>
 					</div>
