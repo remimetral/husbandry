@@ -14,8 +14,8 @@ return [
 	*/
 
 	'home_desc' => 'Description',
-	'home_title' => 'Husky des Alpes - Accueil',
-	'about_title' => 'Husky des Alpes - À propos de moi',
-	'works_title' => 'Husky des Alpes - Mon travail',
+	'home_title' => 'Rémi Métral - Accueil',
+	'about_title' => 'Rémi Métral - À propos de moi',
+	'works_title' => 'Rémi Métral - Mon travail',
 
 ];
