@@ -154,7 +154,7 @@ if (hasReqestedVersion) {  // if we've detected an acceptable version
 	<table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
 		<tr>
 			<td align="center">
-			<script>writeFlash("index.swf");</script>
+			<script>writeFlash("main.swf");</script>
             
 		</tr>
 	</table>
