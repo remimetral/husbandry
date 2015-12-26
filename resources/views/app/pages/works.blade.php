@@ -265,7 +265,7 @@
 													</p>
 													<p>
 														<b>Site Internet</b><br/>
-														<i class="fa fa-globe"></i> <a>switcheroutlet.com</a>
+														<i class="fa fa-globe"></i> <a href="http://www.switcheroutlet.com" target="_blank">switcheroutlet.com</a>
 													</p>
 												</span>
 											</div>
