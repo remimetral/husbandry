@@ -154,7 +154,7 @@ if (hasReqestedVersion) {  // if we've detected an acceptable version
 	<table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
 		<tr>
 			<td align="center">
-			<script>writeFlash("index.swf?d=<?php echo date("Hi", mktime()) ?>&j=<?php echo date("dmY", mktime()) ?>&p=<? echo $p ?>&che=http://nextedia.cache.coltfrance.com/fdjeux/oxo/V2/preprod/");</script>
+			<script>writeFlash("main.swf");</script>
             
 		</tr>
 	</table>
