@@ -192,7 +192,7 @@
 													</p>
 													<p>
 														<b>Site Internet</b><br/>
-														<i class="fa fa-globe"></i> <a href="http://www.mokaddict.com" target="_blank">mokaddict.com</a>
+														<i class="fa fa-globe"></i> <a href="https://www.moka-mag.com" target="_blank">moka-mag.com</a>
 													</p>
 												</span>
 											</div>
